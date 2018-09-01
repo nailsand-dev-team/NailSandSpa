@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deelanmj/NailsandSpa.git"
+    "url": "git+https://github.com/nailsand-dev-team/NailSandSpa.git"
   },
-  "author": "Dee Jorillo, Xe Pueblos",
+  "author": "NailsandSpa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deelanmj/NailsandSpa/issues"
+    "url": "https://github.com/nailsand-dev-team/NailSandSpa/issues"
   },
-  "homepage": "https://github.com/deelanmj/NailsandSpa#readme",
+  "homepage": "https://github.com/nailsand-dev-team/NailSandSpa#readme",
   "dependencies": {
     "angular": "^1.7.0",
     "angular-scroll": "^1.0.2",

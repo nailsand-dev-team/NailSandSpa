@@ -50,6 +50,7 @@
     background-color: #059DAB;  /* Blue */
     padding: 20px 0;
     display: flex;
+    -webkit-display: -webkit-flex;
     justify-content: center;
     position: fixed;
     width: 100%;
@@ -57,16 +58,19 @@
     z-index: 100;
   }
   
-  .menu {
+  .menu-items {
     width: 900px;
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
   }
 
-  .container-flex {
-    display: flex;
-    display: -webkit-inline-flex;
+  .menu-items a {
+    font-size: 30px;
+    font-family: lobster-regular;
+    text-decoration: none;
+    color: azure;
+    line-height: 30px;
   }
 
   .container-inline-flex {
@@ -93,13 +97,7 @@
     width: 97%;
   }
 
-  .menu a {
-      font-size: 30px;
-      font-family: lobster-regular;
-      text-decoration: none;
-      color: azure;
-      line-height: 30px;
-  }
+  
 
   .header {
     font-family: lobster-regular;
